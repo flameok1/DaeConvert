@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="標頭檔\Title">
+      <UniqueIdentifier>{b5fdd7ab-02bd-4177-80f4-a03fd140bc89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\Title">
+      <UniqueIdentifier>{538d7940-5bda-4212-b5b5-889734fa4088}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DaeConvert.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLManager.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjCommon.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="LibGeometry.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryControllers.cpp">
+      <Filter>資源檔\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryGeometry.cpp">
+      <Filter>資源檔\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryNodes.cpp">
+      <Filter>資源檔\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="LibraryVisualScenes.cpp">
+      <Filter>資源檔\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleBase.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XMLManager.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MathStruct.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjCommon.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibGeometry.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibParam.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibAccessor.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TechniqueCommon.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTechnique.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMesh.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibExtra.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibVertex.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibPolylist.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibInput.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibVCount.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatArray.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibP.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibController.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibSkin.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="IDREFArray.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibJoints.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibVertexWeights.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibV.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryControllers.h">
+      <Filter>標頭檔\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryGeometry.h">
+      <Filter>標頭檔\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryNodes.h">
+      <Filter>標頭檔\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryVisualScenes.h">
+      <Filter>標頭檔\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="LibraryAll.h">
+      <Filter>標頭檔\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="LibVisualScene.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibNode.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibScale.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibTranslate.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="LibRotate.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleBase.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
